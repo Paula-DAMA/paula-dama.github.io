@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: franklin gothic medium;
+}
+
+/*Aqui empieza el header*/
+h1 {
+    font-weight: normal;
+    font-family: 'Monoton', cursive;
+    font-size: 40pt;
+    color: white;
+    margin: 0px;
+
+}
+
+header {
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 1.4);
+    margin: 0px;
+    background-color: rgba(4, 33, 32);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+}
+
+.logo2 {
+    margin-left: 45px;
+    position: absolute;
+    left: 0;
+}
+
+.a {
+    width: 140px;
+}
+
+/*Body*/
+body {
+    background-color: rgba(6, 63, 71);
+}
+
+/*Aqui empieza el menu*/
+.navMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 20vh;
+    height: 97.5vh;
+    background-color: rgb(67, 138, 161);
+    box-shadow: rgba(4, 33, 32, 0.35) 0px -50px 36px -28px inset;
+}
+
+.logo {
+    height: 20vh;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 175px;
+}
+
+.menu li {
+    padding: 2vh;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(4, 33, 32);
+    border-radius: 1vh;
+}
+
+.menu li:hover {
+    background-color: rgb(149, 230, 224);
+    box-shadow: rgba(4, 33, 32, 0.35) 0px -50px 36px -28px inset;
+}
+
+.contenedorBotones {
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.botonCerrarSesion{
+    width: 14vh;
+    height: 5vh;
+    align-self: center;
+    border-radius: 10px;
+    margin: 3vh 0 0 0;
+    background-color: rgb(61, 173, 166);
+    cursor: pointer;
+}
+.botonCerrarSesion a{
+    outline: none;
+    text-decoration: none;
+    color:black;
+}
+
+/*Esta parte del css engloba el menu y la pagina*/
+.Pagina_entera {
+    display: flex;
+    align-items: center;
+}
+
+/* Esta parte pertenece a la modificacion de la contraseña*/
+form{
+    text-decoration: none;
+    color: black;
+
+    height: 33%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #438AAB;          
+    border: 5px outset #356B7D;             
+    border-radius: 15px;
+    width: 300px;
+    padding: 25px 25px 5px 25px;
+    margin: auto;
+    height: 220px;
+    margin-top: 200px;
+    box-shadow: 
+        rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.contraseña{
+    margin-left: 63vh;
+    position: static;
+}
+input{
+    border: 2px inset #356B7D;
+    border-radius: 8px;
+    height: 25px;
+    background-color: #D1EAEB;
+}
+input[type="submit"]{
+    border: 2px inset #356B7D;
+    border-radius: 25px;
+    height: 50px;
+    font-weight: bold;
+    background-color: #D1EAEB; 
+    margin-top: 20px;
+}
+input[type="submit"]:hover{
+    border: 2px outset #356B7D;
+    color: black;
+    font-weight: bold;
+    background-color: #356B7D;
+}
+label{
+    font-weight: bold;
+}

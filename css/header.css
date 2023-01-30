@@ -1,0 +1,39 @@
+body
+{
+    margin: 0px;
+    background-color: rgba(6,63,71);
+}
+
+h1
+{
+    font-weight: normal;
+    font-family: 'Monoton', cursive;
+    font-size: 40pt;
+    color: white;
+    margin: 0px;
+
+}
+
+header
+{
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 1.4);
+    margin: 0px;
+    background-color: rgba(4,33,32);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+}
+
+.logo2
+{
+    margin-left: 45px;
+    position: absolute;
+    left: 0;
+}
+.a
+{
+    width: 140px ;
+}

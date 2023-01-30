@@ -1,0 +1,176 @@
+/* Header */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    background-color: rgba(6,63,71,28);
+}
+
+h1
+{
+    font-weight: normal;
+    font-family: 'Monoton', cursive;
+    font-size: 40pt;
+    color: white;
+    margin: 0px;
+}
+
+header
+{
+    margin: 0px;
+    background-color: rgba(4,33,32);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.logo2
+{
+    margin-left: 45px;
+    position: absolute;
+    left: 0;
+}
+
+.a
+{
+    width: 140px ;
+}
+
+
+/* Footer */
+footer
+{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 6vh;
+
+    background-color: rgba(4,33,32);
+    color: white;
+}
+
+footer p
+{
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+}
+
+
+/* Main */
+main
+{
+    padding-top: 140px;
+    display: flex;
+}
+
+
+
+/* Animación Stories */
+@keyframes transitionImage
+{
+    0% {margin-left: 0;}
+    10% {margin-left: 0;}
+    20% {margin-left: -65vw;}
+    30% {margin-left: -65vw;}
+    40% {margin-left: -130vw;}
+    50% {margin-left: -130vw;}
+    60% {margin-left: -195vw;}
+    70% {margin-left: -195vw;}
+    80% {margin-left: -260vw;}
+    90% {margin-left: -260vw;}
+    95% {margin-left: -325vw;}
+    100% {margin-left: -325vw;}
+}
+
+.carousel
+{
+    width: 65vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel img
+{
+    width: 65vw;
+}
+
+.carousel ul
+{
+    display: flex;
+    padding: 0;
+    width: 65vw;
+    animation: transitionImage 35s infinite;
+    animation-direction: normal;
+}
+
+.slider li
+{
+    width: 100vw;
+    list-style: none;
+}
+
+
+/* Menu vertical */
+.navMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20vh;
+    height: 97.5vh;
+    background-color: rgb(67, 138, 161);
+    box-shadow: rgba(4, 33, 32, 0.35) 0px -50px 36px -28px inset;
+}
+
+.logo {
+    height: 20vh;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.menu li {
+    padding: 2vh;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(4, 33, 32);
+    border-radius: 1vh;
+}
+
+.menu li:hover {
+    background-color: rgb(149, 230, 224);
+    box-shadow: rgba(4, 33, 32, 0.35) 0px -50px 36px -28px inset;
+}
+
+.contenedorBotones {
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.botonCerrarSesion{
+    width: 14vh;
+    height: 5vh;
+    align-self: center;
+    border-radius: 10px;
+    margin: 3vh 0 0 0;
+    background-color: rgb(61, 173, 166);
+    cursor: pointer;
+}
+.botonCerrarSesion a{
+    outline: none;
+    text-decoration: none;
+    color:black;
+}

@@ -1,0 +1,242 @@
+
+body
+{
+    margin: 0px;
+    background-color: rgba(6,63,71);
+}
+
+h1
+{
+    font-weight: normal;
+    font-family: 'Monoton', cursive;
+    font-size: 40pt;
+    color: white;
+    margin: 0px;
+
+}
+
+header
+{
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 1.4);
+    margin: 0px;
+    background-color: rgba(4,33,32);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+}
+
+.logo2
+{
+    margin-left: 45px;
+    position: absolute;
+    left: 0;
+}
+.a
+{
+    width: 140px ;
+}
+main
+{
+
+    padding-top: 154px;
+}
+
+/*Lo que hay arriba es todo lo relacionado con el header*/
+
+.cuerpo
+{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.cuerpo>section
+{
+    flex-direction: column; 
+    display: flex;   
+    height: auto;
+    height: 100vh;
+}
+
+.Menu
+{
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.8);
+    background-color: rgba(34,97,93);
+    width: 12rem;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    
+}
+
+.Amigos
+{
+    padding: 2rem 2rem 0rem 31.5rem;
+    background-color: rgba(6,63,71);
+    height: auto;
+    flex-direction: column; 
+    display: flex;
+}
+
+.Menu>a
+{
+    margin: 9px 0px;
+}
+
+.Menu>a>button
+{
+    background-color: rgb(149, 230, 224);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    width: 10rem;
+    height: 5rem;
+    border-radius: 16px;
+    border-width: 0px;
+    font-size: 20pt;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.Menu>a>button:hover
+{
+    background-color: rgb(4,33,32);
+    color: rgb(255,255,255);
+    transition:background-color 0.4s, color 0.4s;
+}
+
+.Menu>a>button
+{
+    background-color: rgb(149, 230, 224);
+    color: black;
+    transition:background-color 0.4s, color 0.4s;
+}
+
+
+
+.Amigo
+{
+    margin: 7px 0 7px 0;
+    background-color: azure;
+    width: 40vw;
+    height: auto;
+    border-radius: 25px;
+
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.8);
+}
+
+.Amigo>div.perfil
+{
+
+}
+
+.perfil
+{
+    border-bottom: 4px solid rgb(149, 230, 224);
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(67,138,161,67);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    font-size: 20pt ;
+}
+
+.perfil>img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin: 1rem;
+}
+
+.perfil>p
+{
+    margin-left: 10px;
+}
+
+
+
+/*De aqui para abajo esta todo lo que concierne a los botones de las Amigos*/
+
+button:hover
+{
+    cursor: pointer;
+}
+
+
+.botones
+{
+    background-color: rgb(149, 230, 224);
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    align-items: stretch;
+    justify-content:space-between;
+
+}
+
+.botones>a>button
+{
+    background-color: rgb(149, 230, 224);
+    font-size: 16pt;
+    border: 0px;
+    /*border-color: rgb(67,138,161);*/
+    padding: 7px 25px;
+    border-bottom-left-radius: 20px;    border-bottom-right-radius: 20px;
+    border-width: 0px;
+    font-size: 20pt;
+    width: 40vw;
+}
+
+
+.botones>a>button:hover
+{
+    background-color: rgb(4,33,32);
+    color: rgb(255,255,255);
+    transition:background-color 0.4s, color 0.4s;
+}
+
+.botones>a>button
+{
+    background-color: rgb(149, 230, 224);
+    color: black;
+    transition:background-color 0.4s, color 0.4s;
+}
+
+fieldset
+{
+    background-color: rgb(149, 230, 224);
+    border-radius:20px ;
+    border: 0;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 17px;
+}
+
+form
+{
+    background-color: rgb(149, 230, 224);
+    border-bottom-left-radius: 20px;    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+label
+{
+    font-size: 30pt;
+    font-family: 'Bebas Neue', cursive;
+}
+
+input
+{
+    font-size: 15pt;
+    width: 95%;
+    border-bottom-left-radius: 20px;    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 10px;
+    border: 2px solid rgba(34,97,93);
+}

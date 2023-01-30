@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: franklin gothic medium;
+}
+
+/*Aqui empieza el header*/
+h1 {
+    font-weight: normal;
+    font-family: 'Monoton', cursive;
+    font-size: 40pt;
+    color: white;
+    margin: 0px;
+
+}
+
+header {
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 1.4);
+    margin: 0px;
+    background-color: rgba(4, 33, 32);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+}
+
+.logo2 {
+    margin-left: 45px;
+    position: absolute;
+    left: 0;
+}
+
+.a {
+    width: 140px;
+}
+
+/*Body*/
+body {
+    background-color: rgba(6, 63, 71);
+}
+
+/*Aqui empieza el menu*/
+.navMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20vh;
+    height: 97.5vh;
+    background-color: rgb(67, 138, 161);
+    box-shadow: rgba(4, 33, 32, 0.35) 0px -50px 36px -28px inset;
+}
+
+.logo {
+    height: 20vh;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 175px;
+}
+
+.menu li {
+    padding: 2vh;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(4, 33, 32);
+    border-radius: 1vh;
+}
+
+.menu li:hover {
+    background-color: rgb(149, 230, 224);
+    box-shadow: rgba(4, 33, 32, 0.35) 0px -50px 36px -28px inset;
+}
+
+.contenedorBotones {
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.botonCerrarSesion{
+    width: 14vh;
+    height: 5vh;
+    align-self: center;
+    border-radius: 10px;
+    margin: 3vh 0 0 0;
+    background-color: rgb(61, 173, 166);
+    cursor: pointer;
+}
+.botonCerrarSesion a{
+    outline: none;
+    text-decoration: none;
+    color:black;
+}
+
+/*Esta parte del css engloba el menu y la pagina del chat*/
+.chatentero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Aqui empieza el css de una lista de amigos puesta en el chat*/
+.lista-amigos {
+    margin-right: 10px;
+    margin-top: 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+}
+
+.titulo {
+    text-decoration: underline 3px;
+    box-shadow: rgba(4, 33, 32, 0.35) 0px -50px 36px -28px inset;
+    font-size: larger;
+    height: 30px;
+}
+
+.amigos-item {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(67, 138, 161);
+    text-align: center;
+    color: rgb(4, 33, 32);
+}
+
+.amigos-item:hover {
+    background-color: rgb(149, 230, 224);
+    box-shadow: rgba(4, 33, 32, 0.35) 0px -50px 36px -28px inset;
+    cursor: pointer;
+}
+
+.logo-usu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    width: 30px;
+}
+
+/* Aqui empieza el css del chat*/
+.chat-container {
+    width: 500px;
+    background-color: rgb(67, 138, 161);
+    padding: 10px;
+    margin-top: 2vh;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+.chat-message {
+    display: flex;
+    align-items: center;
+    background-color: rgb(79, 224, 215);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+.respuesta {
+    display: flex;
+    justify-content: end;
+}
+
+.form-mensaje {
+    display: flex;
+    margin-top: 26vh;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+input[name='message'] {
+    width: 85%;
+    height: 3vh;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1px;
+}
+
+button[name='send'] {
+    width: 15%;
+    margin-left: 0;
+    padding: 10px;
+    background-color: rgb(79, 224, 215);
+    color: rgb(4, 33, 32);
+    border: none;
+    border-radius: 5px;
+}
+/*Footer*/
+footer p
+{
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+}

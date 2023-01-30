@@ -1,0 +1,67 @@
+* {
+    margin: 0ex;
+    padding: 0ex;
+    font-family: franklin gothic medium;
+}
+
+body {
+    background-color: rgb(34, 97, 93);
+}
+
+.navMenu {
+    display: flex;
+    background-color: rgb(79, 224, 215);
+    height: 150px;
+    font-size: 20px;
+    box-shadow: rgba(4, 33, 32, 0.35) 0px -50px 36px -28px inset;
+    justify-content: space-between;
+}
+
+.navMenu div {
+    display: flex;
+    align-items: center;
+}
+
+.container-menu .logo {
+    width: 75%;
+    height: 75%;
+}
+
+.container-menu ul {
+    width: auto;
+    display: flex;
+    list-style-type: none;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-menu a {
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(4, 33, 32);
+}
+.container-menu li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border-radius: 10px;
+}
+.container-menu li:hover {
+    color: #000;
+    background-color: rgb(149, 230, 244);
+    ;
+}
+.button-container button {
+    width: 100%;
+    height: 30%;
+    align-self: center;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: rgb(61, 173, 166);
+    padding: 0px 20px;
+    margin: 3px;
+    cursor: pointer;
+}

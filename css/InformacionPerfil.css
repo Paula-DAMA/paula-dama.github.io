@@ -1,0 +1,193 @@
+/* Header */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    background-color: rgba(6,63,71,28);
+}
+
+h1
+{
+    font-weight: normal;
+    font-family: 'Monoton', cursive;
+    font-size: 40pt;
+    color: white;
+    margin: 0px;
+}
+
+header
+{
+    margin: 0px;
+    background-color: rgba(4,33,32);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.logo2
+{
+    margin-left: 45px;
+    position: absolute;
+    left: 0;
+}
+
+.a
+{
+    width: 140px ;
+}
+
+
+/* Main */
+main
+{
+    padding-top: 140px;
+    display: flex;
+}
+
+.TuPerfil
+{
+    width: 80vw;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.InfoPerfil img
+{
+    width: 150px;
+    border: 2px black;
+    border-radius: 150px;
+}
+
+.InfoPerfil
+{
+    width: 30vw;
+    margin: 20px;
+    padding: 20px;
+
+    background-color: rgb(79, 224, 215);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.8);
+}
+
+.InfoPublicaciones
+{
+    width: 45vw;
+    margin: 20px;
+    padding: 20px;
+
+    background-color: rgb(79, 224, 215);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.8);
+}
+
+.CajaNuevaPubli textarea
+{
+    width: 40vw;
+    height: 8vw;
+
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.7);
+}
+
+.InfoPublicaciones img
+{
+    width: 400px;
+}
+
+.DatosPersonales
+{
+    border-bottom: 4px solid rgb(149, 230, 224);
+    border-top: 4px solid rgb(149, 230, 224);
+}
+
+.PublicacionPerfil
+{
+    border-top: 4px solid rgb(149, 230, 224);
+}
+
+
+/* Footer */
+footer
+{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 6vh;
+
+    background-color: rgba(4,33,32);
+    color: white;
+}
+
+footer p
+{
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+}
+
+
+/* Menu vertical */
+.navMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20vh;
+    height: 97.5vh;
+    background-color: rgb(67, 138, 161);
+    box-shadow: rgba(4, 33, 32, 0.35) 0px -50px 36px -28px inset;
+}
+
+.logo {
+    height: 20vh;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.menu li {
+    padding: 2vh;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(4, 33, 32);
+    border-radius: 1vh;
+}
+
+.menu li:hover {
+    background-color: rgb(149, 230, 224);
+    box-shadow: rgba(4, 33, 32, 0.35) 0px -50px 36px -28px inset;
+}
+
+.contenedorBotones {
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.botonCerrarSesion{
+    width: 14vh;
+    height: 5vh;
+    align-self: center;
+    border-radius: 10px;
+    margin: 3vh 0 0 0;
+    background-color: rgb(61, 173, 166);
+    cursor: pointer;
+}
+.botonCerrarSesion a{
+    outline: none;
+    text-decoration: none;
+    color:black;
+}

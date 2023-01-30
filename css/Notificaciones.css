@@ -1,0 +1,152 @@
+/* --------------ESTILO GENERAL DE LA PAGINA--------------*/
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #063F47;          /*----> COLOR DE FONDO DEL HEADER*/
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 1.4);
+    margin: 0px;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+    top:0px;
+}
+
+body {
+    background-color: #356B7D;          /*----> COLOR DE FONDO DEL BODY*/
+}
+
+/* --------------ESTILO GENERAL DE LA PAGINA--------------*/
+
+/* --------------BARRA DE ARRIBA--------------*/
+.Cabecera{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 90px;
+}
+.ImagenLogo {
+    width: 140px
+}
+
+.Titulo{
+    font-size: 40pt;
+    font-weight: normal;
+    font-family:'Monoton', cursive;
+    color: #D1EAEB;          /*----> COLOR DE LAS LETRAS DEL HEADER*/
+    margin: 0px;
+}
+/* --------------BARRA DE ARRIBA--------------*/
+
+/* --------------MENU LATERAL--------------*/
+.navMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20vh;
+    height: 97.5vh;
+    background-color: rgb(67, 138, 161);
+    box-shadow: rgba(4, 33, 32, 0.35) 0px -50px 36px -28px inset;
+}
+
+.logo {
+    height: 20vh;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 175px;
+}
+
+.menu li {
+    padding: 2vh;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(4, 33, 32);
+    border-radius: 1vh;
+}
+
+.menu li:hover {
+    background-color: rgb(149, 230, 224);
+    box-shadow: rgba(4, 33, 32, 0.35) 0px -50px 36px -28px inset;
+}
+
+.contenedorBotones {
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.botonCerrarSesion{
+    width: 14vh;
+    height: 5vh;
+    align-self: center;
+    border-radius: 10px;
+    margin: 3vh 0 0 0;
+    background-color: rgb(61, 173, 166);
+    cursor: pointer;
+}
+.botonCerrarSesion a{
+    outline: none;
+    text-decoration: none;
+    color:black;
+}
+/* --------------MENU LATERAL--------------*/
+
+/* --------------MENU NOTIFICACIONES--------------*/
+.cajaNofiticaciones{
+    width: 500px;
+    background-color: rgb(67, 138, 161);
+    padding: 10px;
+    margin-top: 2vh;
+    height: 50vh;
+    border-radius: 15px;
+    position:absolute;
+    border: 5px outset #356B7D;
+    left:56%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    box-shadow: 
+        rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Notificacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 300ms ;
+    background-color: #D1EAEB; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.Notificacion:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 1.4);
+}
+.Notificacion button{
+    border-radius:12px ;
+    padding:3px 10px;
+    border: 2px outset #356B7D;          
+    background-color: #356B7D;
+}
+.MenuLateralNotificaciones{
+    display: flex;
+    align-items: center;
+}
+/* --------------MENU NOTIFICACIONES--------------*/
+
