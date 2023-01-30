@@ -7,7 +7,7 @@
 
 header {
     width: 100%;
-    background-color: #063F47;          /*----> COLOR DE FONDO DEL HEADER*/
+    background-color: rgba(4, 33, 32);       /*----> COLOR DE FONDO DEL HEADER*/
     box-shadow: 2px 2px 5px rgb(0, 0, 0, 1.4);
     margin: 0px;
     position:fixed;
@@ -19,7 +19,7 @@ header {
 }
 
 body {
-    background-color: #356B7D;          /*----> COLOR DE FONDO DEL BODY*/
+    background-color: rgba(6, 63, 71);         /*----> COLOR DE FONDO DEL BODY*/
 }
 
 /* --------------ESTILO GENERAL DE LA PAGINA--------------*/
