@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/EstilosPaginasInicio&Registro.css">
+    <link rel="shortcut icon" href="multimedia/LOGO_2.png">
+    <title>Regístrate en BigBrain</title> <!-- Las comillas son el nombre de la pagina -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="Cabecera">
+            <div>
+                <img class="ImagenLogo" src="multimedia/LOGO_2.png" alt="Logo">
+            </div>
+            <div>
+                <h1 class="Titulo">Big Brain</h1>
+            </div>
+            <div>
+                <button class="Boton" onclick="location.href='html/PaginaInicioSesion.html'">Iniciar Sesión</button> <!--LINK AQUI-->
+            </div>
+        </div>
+    </header>
+
+    <div>
+        <form action="#" method="post" class="FormRegistro">
+            <label for="Name">Nombre:</label><br>
+            <input type="text" name="Name" id="Name" required placeholder=" Julie Smith"><br>
+            <label for="Username">Usuario:</label><br>
+            <input type="text" name="Username" id="Username" required placeholder=" JulSmi2102"><br>
+            <label for="Date">Fecha de Nacimiento:</label><br>
+            <input type="date" name="Date" id="Date" max="2005-01-31" required><br>
+            <label for="Mail">Correo:</label><br>
+            <input type="email" name="Mail" id="Mail" required placeholder=" Julie@example.com"><br>
+            <label for="Password">Contraseña:</label><br>
+            <input type="password" name="Password" id="Password" required placeholder=" ********"><br>
+            <label for="Password2">Confirma Contraseña:</label><br>
+            <input type="password" name="Password2" id="Password2" required placeholder=" ********"><br>
+            <button class="botonEnviar" onclick="location.href='html/inicio.html'">Enviar</button> <!--LINK AQUI-->
+
+        </form>
+    </div>
+</body>
+
+</html>
