@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<historias>
+    <header>
+        <logo>Logo</logo>
+        <titulo>Big Brain</titulo>
+    </header>
+
+    <menuLateral>
+        <boton>Perfil</boton>
+        <boton>Publicaciones</boton>
+        <boton>Historias</boton>
+        <boton>Amigos</boton>
+        <boton>Chat</boton>
+        <boton>Notificaciones</boton>
+        <boton>Ajustes de cuenta</boton>
+        <boton>Cerrar sesión</boton>
+    </menuLateral>
+
+    <main>
+        <imagen>Imagen</imagen>
+        <imagen>Imagen</imagen>
+        <imagen>Imagen</imagen>
+        <imagen>Imagen</imagen>
+        <imagen>Imagen</imagen>
+        <imagen>Imagen</imagen>
+    </main>
+
+    <footer>© BigBrain. Proyecto 1ºFPS - Alejandro, Daniel, Jorge, Paula, Pedro, Sandra.</footer>
+</historias>

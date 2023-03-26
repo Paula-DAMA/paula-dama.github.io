@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Perfil>
+    <header>
+        <logo>Logo</logo>
+        <titulo>Big Brain</titulo>
+    </header>
+
+    <menuLateral>
+        <boton>Perfil</boton>
+        <boton>Publicaciones</boton>
+        <boton>Historias</boton>
+        <boton>Amigos</boton>
+        <boton>Chat</boton>
+        <boton>Notificaciones</boton>
+        <boton>Ajustes de cuenta</boton>
+        <boton>Cerrar sesión</boton>
+    </menuLateral>
+
+    <main>
+        <datosPerfil>
+            <imagenPerfil>Imagen</imagenPerfil>
+            <datosPersonales>
+                <titulo>Datos personales</titulo>
+                <nombre>Susana</nombre>
+                <apellidos>González Pérez</apellidos>
+                <correoElectronico>susana.sgp@micorreo.com</correoElectronico>
+                <idioma>Español</idioma>
+            </datosPersonales>
+
+            <datosPublicos>
+                <titulo>Datos públicos</titulo>
+                <usuario>SlimeBall</usuario>
+                <fechaNacimiento> 2/06/1985</fechaNacimiento>
+                <ciudad>Alicante</ciudad>
+                <centroEstudiosTrabajo>IES Doctor Balmis</centroEstudiosTrabajo>
+            </datosPublicos>
+
+            <boton>Cambiar</boton>
+        </datosPerfil>
+
+        <publicaciones>
+            <nuevaPublicacion>
+                <titulo>Nueva publicacion</titulo>
+                <descripcion>Cuenta tus novedades</descripcion>
+                <cajaTexto></cajaTexto>
+                <boton>Publicar</boton>
+            </nuevaPublicacion>
+
+            <misPublicaciones>
+                <descripcion>Mis publicaciones</descripcion>
+                <publicacion>
+                    <imagen>Imagen</imagen>
+                    <texto>De vacaciones en el pueblo con la familia. Dobby se tiró al río de cabeza 💜 no había quién lo sacase del agua.</texto>
+                </publicacion>
+            </misPublicaciones>
+        </publicaciones>
+    </main>
+
+    <footer>© BigBrain. Proyecto 1ºFPS - Alejandro, Daniel, Jorge, Paula, Pedro, Sandra.</footer>
+</Perfil>
