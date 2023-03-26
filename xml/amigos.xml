@@ -1,0 +1,33 @@
+<DOCTYPE xml>
+<?xml version="1.0" encoding="UTF-8"?>
+<PaginaAmigos>
+    <Cabezal>
+        <Logo>Imagen</Logo>
+        <Titulo>Big Brain</Titulo>
+    </Cabezal>
+    <Menu>
+        <Botones>Perfil</Botones>
+        <Botones>Publicaciones</Botones>
+        <Botones>Historias</Botones>
+        <Botones>Amigos</Botones>
+        <Botones>Notificaciones</Botones>
+        <Botones>Ajustes de cuenta</Botones>
+    </Menu>
+    <Cuerpo>
+        <BuscarAmigos></BuscarAmigos>
+        <Amigos>Xx_Fabada_xX</Amigos>
+        <Amigos>Ciriaco Blanca Sosa</Amigos>
+        <Amigos>Victoria Castell Alcolea</Amigos>
+        <Amigos>Fortunata Sáenz Rebollo</Amigos>
+        <Amigos>Socorro Puig Cepeda</Amigos>
+        <Amigos>Nazaret Rey Benito</Amigos>
+        <Amigos>José Manuel Bustamante Noguera</Amigos>
+        <Amigos>Rico Luis Miguel Lago López</Amigos>
+        <Amigos>Delfina de Montserrat</Amigos>
+        <Amigos>Pacífica Matilde Lumbreras Paredes</Amigos>
+        <Amigos>Antonio Sebastián Ledesma Estevez</Amigos>
+        <Amigos>Bernardo Villegas Jover</Amigos>
+        <Amigos>Lope Redondo Berenguer</Amigos>
+        <Amigos>Cintia Raya Borja</Amigos>
+    </Cuerpo>
+</PaginaAmigos>
